@@ -1,5 +1,5 @@
 // This is the main class Question
-public class Question24 {
+public class Exercise2_4 {
     public static void main(String[] args) {
         Answer a = new Answer(10, "MCQ");
     }

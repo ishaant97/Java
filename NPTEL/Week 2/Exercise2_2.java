@@ -10,7 +10,7 @@ class Printer {
     }
 }
 
-public class Question22 {
+public class Exercise2_2 {
     public static void main(String[] args) {
         // Create an object of class Printer
 

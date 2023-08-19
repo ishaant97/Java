@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-public class Question21 {
+public class Exercise2_1 {
     public static void main(String args[]) {
         // Create an object of class Student
 
