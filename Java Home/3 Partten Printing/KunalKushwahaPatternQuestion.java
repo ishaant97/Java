@@ -45,8 +45,25 @@ class KunalKushwahaPatternQuestion {
     }
 
     public static void pattern5(int n) {
-        for (int row = 1; row <= 2 * n - 1; row++) {
-            for (int column = 1; column <= row; column++) {
+        for (int row = 0; row <= 2 * n; row++) {
+            int noOfColumn = row < n ? row : 2 * n - row;
+            for (int column = 1; column <= noOfColumn; column++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern28(int n) {
+        for (int row = 0; row <= 2 * n; row++) {
+            int noOfColumn = row < n ? row : 2 * n - row;
+            int noOfSpaces = row == n ? 0 : n - noOfColumn;
+
+            for (int i = 0; i < noOfSpaces; i++) {
+                System.out.print(" ");
+            }
+
+            for (int column = 1; column <= noOfColumn; column++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -58,7 +75,8 @@ class KunalKushwahaPatternQuestion {
         // pattern2(5);
         // pattern3(5);
         // pattern4(5);
-        pattern5(5);
+        // pattern5(5);
+        pattern28(5);
     }
 
 }
