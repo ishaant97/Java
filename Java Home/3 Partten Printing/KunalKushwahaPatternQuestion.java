@@ -1,5 +1,3 @@
-import java.util.*;
-
 class KunalKushwahaPatternQuestion {
 
     public static void pattern1(int n) {
